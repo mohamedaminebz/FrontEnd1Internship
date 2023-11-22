@@ -1,0 +1,46 @@
+.p-field-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-field-wrapper {
+    display: flex;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.p-field {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+.p-calendar .p-inputtext {
+    width: auto !important;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+
+.p-invalid{
+    border-color: red;
+}
+
+input:valid {
+    border-color: #ced4da;
+}
+*{
+     -ms-overflow-style: none;
+ }
+::-webkit-scrollbar {
+    display: none;
+}
