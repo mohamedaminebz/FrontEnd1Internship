@@ -62,7 +62,7 @@ const AuthLogin = () => {
 
                                   //  navigate('/');
                                   //  window.location.reload()
-                                  window.location.href = '/pfa';
+                                  window.location.href = '/internship';
                                 },1000)
                             })
                             .catch((error) => {
